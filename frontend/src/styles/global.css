@@ -1,0 +1,21 @@
+@import "./reset.css";
+@import "./variables.css";
+@import "./layout.css";
+@import "./components.css";
+@import "./dashboard.css";
+@import "./pages.css";
+@import "./animations.css";
+@import "./responsive.css";
+
+body{
+
+    background:var(--background);
+
+    color:var(--text);
+
+    font-family:
+    "Inter",
+    "Segoe UI",
+    sans-serif;
+
+}

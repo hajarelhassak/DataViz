@@ -1,0 +1,386 @@
+/* ==========================================================
+   RESPONSIVE
+========================================================== */
+
+/* Laptop */
+
+@media(max-width:1200px){
+
+    .kpi-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+/* ==========================================================
+   TABLET / SMALL LAPTOP
+========================================================== */
+
+@media(max-width:992px){
+
+    /* Sidebar réduite */
+    .sidebar{
+
+        width:80px;
+        overflow:hidden;
+
+    }
+
+
+    .sidebar-logo h2,
+    .sidebar-logo span,
+    .menu-item,
+    .sidebar-footer p,
+    .sidebar-footer span{
+
+        font-size:0;
+
+    }
+
+
+    .logo-box{
+
+        margin:auto;
+
+    }
+
+
+    /* Contenu principal */
+
+    .main-content{
+
+        margin-left:80px;
+
+    }
+
+
+    .workspace{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+    .ai-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+
+@media(max-width:768px){
+
+
+    .sidebar{
+
+        position:fixed;
+
+        left:-260px;
+
+        top:0;
+
+        height:100vh;
+
+        width:260px;
+
+        z-index:1000;
+
+        transition:0.3s;
+
+    }
+
+
+
+    .sidebar.open{
+
+        left:0;
+
+    }
+
+
+
+    .main-content{
+
+        margin-left:0;
+
+    }
+
+
+
+    .navbar{
+
+        height:70px;
+
+        width:100%;
+
+    }
+
+
+
+    .navbar-left{
+
+        display:none;
+
+    }
+
+
+
+    .search-wrapper{
+
+        display:none;
+
+    }
+
+
+
+    .user-info{
+
+        display:none;
+
+    }
+
+
+}
+/* Small mobile */
+
+@media(max-width:480px){
+
+    .page-title{
+
+        font-size:1.5rem;
+
+    }
+
+    .card{
+
+        padding:18px;
+
+    }
+
+}
+
+@media(max-width:900px){
+
+    .login-page{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+    .login-showcase{
+
+        display:none;
+
+    }
+
+
+    .login-card{
+
+        width:90%;
+
+    }
+
+}
+
+/* ==========================================================
+   RESPONSIVE TYPOGRAPHY
+========================================================== */
+
+
+/* Texte général */
+body{
+    font-size: clamp(14px, 1.2vw, 16px);
+}
+
+
+/* Sidebar */
+.sidebar-logo h2{
+
+    font-size:clamp(18px, 2vw, 24px);
+
+}
+
+
+.sidebar-logo span{
+
+    font-size:clamp(11px, 1vw, 14px);
+
+}
+
+
+.menu-item{
+
+    font-size:clamp(13px, 1.2vw, 16px);
+
+}
+
+
+.sidebar-footer{
+
+    font-size:clamp(11px, 1vw, 14px);
+
+}
+
+
+
+/* Navbar */
+
+.navbar{
+
+    font-size:clamp(13px, 1.2vw, 16px);
+
+}
+
+
+.search-input{
+
+    font-size:clamp(12px, 1vw, 15px);
+
+}
+
+
+.user-info strong{
+
+    font-size:clamp(13px, 1.2vw, 16px);
+
+}
+
+
+.user-info span{
+
+    font-size:clamp(11px, 1vw, 13px);
+
+}
+
+
+
+/* Pages */
+
+.page-title{
+
+    font-size:clamp(22px, 3vw, 36px);
+
+}
+
+
+.page-subtitle{
+
+    font-size:clamp(13px, 1.5vw, 18px);
+
+}
+
+
+
+/* Cards Dashboard */
+
+.card h3{
+
+    font-size:clamp(14px, 1.4vw, 18px);
+
+}
+
+
+.card p{
+
+    font-size:clamp(12px, 1.2vw, 15px);
+
+}
+
+
+
+/* KPI */
+
+.kpi-value{
+
+    font-size:clamp(24px, 3vw, 42px);
+
+}
+
+
+.kpi-label{
+
+    font-size:clamp(12px, 1.2vw, 15px);
+
+}
+
+
+
+/* Boutons */
+
+button,
+.btn{
+
+    font-size:clamp(12px, 1.2vw, 15px);
+
+}
+@media(max-width:768px){
+
+    .page-title{
+
+        font-size:24px;
+
+    }
+
+
+    .page-subtitle{
+
+        font-size:14px;
+
+    }
+
+
+    .menu-item{
+
+        font-size:15px;
+
+    }
+
+
+    .card h3{
+
+        font-size:16px;
+
+    }
+
+
+    .card p{
+
+        font-size:13px;
+
+    }
+
+}
+
+
+
+@media(max-width:480px){
+
+    .page-title{
+
+        font-size:20px;
+
+    }
+
+
+    .navbar{
+
+        font-size:13px;
+
+    }
+
+
+    .sidebar-logo h2{
+
+        font-size:20px;
+
+    }
+
+}

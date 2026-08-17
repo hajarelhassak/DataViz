@@ -1,0 +1,72 @@
+:root{
+
+    /* ===============================
+       COLORS
+    =============================== */
+
+    --color-primary:#2563EB;
+    --color-primary-light:#3B82F6;
+    --color-primary-dark:#1D4ED8;
+
+    --color-secondary:#7C3AED;
+    --color-accent:#06B6D4;
+
+    --color-success:#10B981;
+    --color-warning:#F59E0B;
+    --color-danger:#EF4444;
+
+    --color-background:#F6F8FC;
+    --color-surface:#FFFFFF;
+    --color-surface-hover:#F9FAFB;
+
+    --color-sidebar:#0F172A;
+    --color-sidebar-hover:#1E293B;
+    --color-sidebar-active:#2563EB;
+
+    --color-border:#E2E8F0;
+
+    --color-text:#0F172A;
+    --color-text-light:#64748B;
+    --color-text-muted:#94A3B8;
+
+    /* ===============================
+       SHADOWS
+    =============================== */
+
+    --shadow-sm:
+        0 2px 8px rgba(15,23,42,.05);
+
+    --shadow-md:
+        0 8px 24px rgba(15,23,42,.08);
+
+    --shadow-lg:
+        0 16px 40px rgba(15,23,42,.12);
+
+    /* ===============================
+       RADIUS
+    =============================== */
+
+    --radius-sm:10px;
+    --radius-md:16px;
+    --radius-lg:22px;
+    --radius-xl:30px;
+
+    /* ===============================
+       SPACING
+    =============================== */
+
+    --space-xs:.4rem;
+    --space-sm:.8rem;
+    --space-md:1.2rem;
+    --space-lg:2rem;
+    --space-xl:3rem;
+
+    /* ===============================
+       TRANSITIONS
+    =============================== */
+
+    --transition-fast:.2s ease;
+    --transition:.3s ease;
+    --transition-slow:.5s ease;
+
+}

@@ -1,0 +1,307 @@
+/* ==========================================================
+   BUTTONS
+========================================================== */
+
+.btn{
+
+    padding:12px 24px;
+
+    border-radius:var(--radius-md);
+
+    transition:var(--transition);
+
+    font-weight:600;
+
+}
+
+.btn-primary{
+
+    background:var(--color-primary);
+
+    color:white;
+
+}
+
+.btn-primary:hover{
+
+    background:var(--color-primary-dark);
+
+}
+
+.btn-secondary{
+
+    background:white;
+
+    border:1px solid var(--color-border);
+
+}
+
+/* ==========================================================
+   CARDS
+========================================================== */
+
+.card{
+
+    background:white;
+
+    border-radius:var(--radius-lg);
+
+    padding:24px;
+
+    box-shadow:var(--shadow-sm);
+
+    transition:var(--transition);
+
+}
+
+.card:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:var(--shadow-md);
+
+}
+
+/* ==========================================================
+   INPUT
+========================================================== */
+
+.input{
+
+    width:100%;
+
+    padding:14px;
+
+    border-radius:var(--radius-md);
+
+    border:1px solid var(--color-border);
+
+    transition:var(--transition);
+
+}
+
+.input:focus{
+
+    border-color:var(--color-primary);
+
+}
+
+/* ==========================================================
+   BADGE
+========================================================== */
+
+.badge{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    padding:6px 12px;
+
+    border-radius:999px;
+
+    font-size:.8rem;
+
+    font-weight:600;
+
+}
+
+.badge-success{
+
+    background:#DCFCE7;
+
+    color:#166534;
+
+}
+.search-wrapper {
+
+    position:relative;
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+
+.search-icon {
+
+    position:absolute;
+
+    left:14px;
+
+    color:#64748b;
+
+}
+
+
+.search-input {
+
+    padding:10px 15px 10px 42px;
+
+    border-radius:12px;
+
+    border:1px solid #e2e8f0;
+
+    width:240px;
+
+    background:#f8fafc;
+
+}
+
+
+
+.icon-btn {
+
+
+    position:relative;
+
+    width:42px;
+
+    height:42px;
+
+    border-radius:12px;
+
+    border:none;
+
+    background:#f8fafc;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    cursor:pointer;
+
+    color:#334155;
+
+}
+
+
+
+.notification-badge {
+
+
+    position:absolute;
+
+    top:-5px;
+
+    right:-5px;
+
+    background:#2563eb;
+
+    color:white;
+
+    font-size:11px;
+
+    width:18px;
+
+    height:18px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+}
+
+
+
+.user-profile {
+
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    position:relative;
+
+    cursor:pointer;
+
+}
+
+
+
+.user-avatar {
+
+
+    width:42px;
+
+    height:42px;
+
+    background:#2563eb;
+
+    color:white;
+
+    border-radius:50%;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-weight:700;
+
+}
+
+
+
+.user-info span {
+
+
+    display:block;
+
+    font-size:12px;
+
+    color:#64748b;
+
+}
+
+
+
+.dropdown-item {
+
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    width:100%;
+
+    padding:12px 15px;
+
+    border:none;
+
+    background:none;
+
+    cursor:pointer;
+
+    color:#334155;
+
+}
+
+
+
+.dropdown-item:hover {
+
+
+    background:#f1f5f9;
+
+}
+
+
+
+.logout-item {
+
+    color:#dc2626;
+
+}

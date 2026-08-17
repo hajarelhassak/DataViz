@@ -1,0 +1,8 @@
+{
+    "project_id": "751fc36c-cf40-42a8-a7dc-3173e1a62dbd",
+    "connection_id": "5764b93d-6b59-417d-bbc1-5c4b366c4750",
+    "tables": [
+        "products",
+        "sales"
+    ]
+}
